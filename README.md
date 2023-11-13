@@ -29,7 +29,7 @@ Run the application:
 #### API Documentation
 
 Explore the API endpoints using the provided Postman collection here .
-[[https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448](https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448)https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448](https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448)
+Postman Collection: https://bit.ly/47cYD7y
 
 # Database Schema
 
