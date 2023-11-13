@@ -31,17 +31,36 @@ Run the application:
 Explore the API endpoints using the provided Postman collection here .
 [[https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448](https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448)https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448](https://lunar-comet-587724.postman.co/workspace/New-Team-Workspace~c87efc13-c3a4-4743-92e4-e07aeeba18de/collection/17595448-e040c467-22a1-48b7-be52-afb0a46440d5?action=share&creator=17595448)
 
-### Database Schema UML Diagram:
-+-----------------+       +---------------+       +------------------+
-|     User        |       |     Book      |       |      Review      |
-+-----------------+       +---------------+       +------------------+
-| id: int (PK)     |       | id: int (PK)  |       | id: int (PK)     |
-| username: str    |       | title: str    |       | rating: int      |
-| email: str       |       | author: str   |       | text: str        |
-| password_hash:   |       | genre: str    |       | user_id: int (FK)|
-|    str           |       | pub_year: int |       | book_id: int (FK)|
-| role: str        |       +---------------+       +------------------+
+# Database Schema
+
+### User Table
++-----------------+ 
+| id: int (PK)     | 
+| username: str    | 
+| email: str       | 
+| password_hash:   | 
+|    str           | 
+| role: str        | 
 +-----------------+
+
+### Book Table
++---------------+       
+| id: int (PK)  |       
+| title: str    |       
+| author: str   |       
+| genre: str    |       
+| pub_year: int |       
++---------------+
+
+### Review Table
++------------------+       
+| id: int (PK)     |       
+| rating: int      |       
+| text: str        |       
+| user_id: int (FK)|       
+| book_id: int (FK)|       
++------------------+
+
 
 
 
