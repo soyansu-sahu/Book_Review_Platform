@@ -33,14 +33,16 @@ Explore the API endpoints using the provided Postman collection here .
 
 # Database Schema
 
+# Database Schema
+
 ### User Table
-+-----------------+ 
-| id: int (PK)     | 
-| username: str    | 
-| email: str       | 
-| password_hash:   | 
-|    str           | 
-| role: str        | 
++-----------------+
+| id: int (PK)     |
+| username: str    |
+| email: str       |
+| password_hash:   |
+|      str         |
+| role: str        |
 +-----------------+
 
 ### Book Table
