@@ -33,35 +33,33 @@ Explore the API endpoints using the provided Postman collection here .
 
 # Database Schema
 
-# Database Schema
+## User Table
+| Field           | Type       |
+| --------------- | ---------- |
+| id (PK)         | int        |
+| username        | str        |
+| email           | str        |
+| password_hash   | str        |
+| role            | str        |
 
-### User Table
-+-----------------+
-| id: int (PK)     |
-| username: str    |
-| email: str       |
-| password_hash:   |
-|      str         |
-| role: str        |
-+-----------------+
+## Book Table
+| Field           | Type       |
+| --------------- | ---------- |
+| id (PK)         | int        |
+| title           | str        |
+| author          | str        |
+| genre           | str        |
+| pub_year        | int        |
 
-### Book Table
-+---------------+       
-| id: int (PK)  |       
-| title: str    |       
-| author: str   |       
-| genre: str    |       
-| pub_year: int |       
-+---------------+
+## Review Table
+| Field           | Type       |
+| --------------- | ---------- |
+| id (PK)         | int        |
+| rating          | int        |
+| text            | str        |
+| user_id (FK)    | int        |
+| book_id (FK)    | int        |
 
-### Review Table
-+------------------+       
-| id: int (PK)     |       
-| rating: int      |       
-| text: str        |       
-| user_id: int (FK)|       
-| book_id: int (FK)|       
-+------------------+
 
 
 
